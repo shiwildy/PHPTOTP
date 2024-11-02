@@ -12,6 +12,8 @@ composer require shiwildy/phptotp
 
     require "vendor/autoload.php";
     use ShiWildy\phptotp;
+
+    // Setup phptotp instance
     $phptotp = new phptotp();
     
     // Generate Secret Key
