@@ -9,6 +9,7 @@ composer require shiwildy/phptotp
 ## Example
 ```php
 <?php
+
     require "vendor/autoload.php";
     use ShiWildy\phptotp;
     $phptotp = new phptotp();
