@@ -33,7 +33,7 @@ composer require shiwildy/phptotp
     }
     
     // Generate TOTP Link
-    $qrcodelink = $phptotp->getQRCodeUrl("MyApp", "ismy@email.com", $secret);
+    $qrcodelink = $phptotp->getQRCodeUrl("ismy@email.com", "MyApp", $secret);
     echo "Importable Link for QR: "  . $qrcodelink . PHP_EOL;
 ?>
 ```
