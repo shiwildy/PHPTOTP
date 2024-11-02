@@ -1,0 +1,29 @@
+{
+    "name": "shiwildy/phptotp",
+    "description": "A  simple TOTP library for PHP.",
+    "license": "MIT",
+    "keywords": [
+        "TOTP",
+        "Authenticator",
+        "Google Auth",
+        "2FA",
+        "2FA Auth",
+        "Multi Auth"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShiWildy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wildy Sheverando",
+            "email": "hai@shiwildy.com",
+            "homepage": "https://github.com/shiwildy.git"
+        }
+    ]
+}
